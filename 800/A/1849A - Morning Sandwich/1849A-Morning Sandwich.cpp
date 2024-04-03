@@ -10,16 +10,16 @@ int main()
     {
         int b,c,h;
         cin>>b>>c>>h;
-        int filler = c+h;
-        int needFiller = b--;
-        if(filler>=needFiller)
+        int cH = c+h;
+        int needCH = b--;
+        if(cH>=needCH)
         {
-            int x = needFiller+b;
+            int x = needCH+b;
             cout<<x<<endl;
         }
         else 
         {
-            cout<<filler+(filler+1)<<endl;
+            cout<<cH+(cH+1)<<endl;
         }
     }
     

@@ -27,7 +27,6 @@ int main()
         sq = sqrt(a);
         if(a==1) cout<<"NO"<<endl;
         else if(sq*sq==a && arr[sq]==0) cout<<"YES"<<endl;
-    
         else cout<<"NO"<<endl;
     }
     
